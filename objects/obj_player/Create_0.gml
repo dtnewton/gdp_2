@@ -30,3 +30,9 @@ jump_speed = 8;
 /// @DnDArgument : "expr" "4"
 /// @DnDArgument : "var" "movement_speed"
 movement_speed = 4;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4426D874
+/// @DnDArgument : "var" "hat_stack"
+hat_stack = 0;
