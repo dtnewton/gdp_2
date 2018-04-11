@@ -80,7 +80,7 @@
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 32,
+            "enumb": 87,
             "eventtype": 9,
             "m_owner": "2bb7e7ee-a362-4e9f-bf1f-1a48625df0a9"
         },
@@ -92,6 +92,16 @@
             "collisionObjectId": "854f2900-549b-4e57-9f66-bf9a30fe9dd1",
             "enumb": 0,
             "eventtype": 4,
+            "m_owner": "2bb7e7ee-a362-4e9f-bf1f-1a48625df0a9"
+        },
+        {
+            "id": "2be4143b-1ea4-4052-94bc-ac3c4a1500cc",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 32,
+            "eventtype": 9,
             "m_owner": "2bb7e7ee-a362-4e9f-bf1f-1a48625df0a9"
         }
     ],
@@ -111,7 +121,22 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "e781e00b-d410-4dd1-8e5c-ecbd4b640651",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "jumps",
+            "varType": 0
+        }
+    ],
     "solid": false,
     "spriteId": "eca13e25-936a-4077-9eb2-4e6941394256",
     "visible": true
