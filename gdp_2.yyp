@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "0d2c18b3-46b1-412c-9a84-50a7df32a32e",
+            "Value": {
+                "id": "95960e92-c84c-4fef-9a25-ee9111e6c366",
+                "resourcePath": "sprites\\spr_conveyer_belt\\spr_conveyer_belt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0df542b7-9b51-41e4-9f27-bc8a6ef4d106",
             "Value": {
                 "id": "54e3c4af-e117-4ae3-bd90-85d445e20e3c",
