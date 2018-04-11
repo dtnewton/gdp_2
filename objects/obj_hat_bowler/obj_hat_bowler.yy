@@ -1,8 +1,8 @@
 {
-    "id": "6c682a7a-d47d-4865-a57f-0e82a69c2f34",
+    "id": "a9b77338-5039-4fe5-b34d-c56fe69a59a9",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_hat_viking",
+    "name": "obj_hat_bowler",
     "eventList": [
         
     ],
@@ -24,7 +24,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "42e84a5b-749e-47d7-8204-3cc3315b374c",
+            "id": "f2f54b2a-c005-49c1-8e9c-e5e475ac847b",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -39,6 +39,6 @@
         }
     ],
     "solid": false,
-    "spriteId": "854ff7db-d2f8-49d8-86e3-972f5578301b",
+    "spriteId": "24fa7649-5262-46c1-b925-75c6d750eb6c",
     "visible": true
 }

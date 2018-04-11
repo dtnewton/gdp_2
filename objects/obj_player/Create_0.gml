@@ -36,3 +36,9 @@ movement_speed = 4;
 /// @DnDHash : 4426D874
 /// @DnDArgument : "var" "hat_stack"
 hat_stack = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7E3689E8
+/// @DnDArgument : "var" "hat_stack_height"
+hat_stack_height = 0;

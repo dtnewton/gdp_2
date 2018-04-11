@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "24fa7649-5262-46c1-b925-75c6d750eb6c",
+            "Value": {
+                "id": "51f5cbf8-30d4-42d8-85b4-bd104f1151a3",
+                "resourcePath": "sprites\\bowler\\bowler.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "26d3bd40-e242-47fe-a41b-15b056a22cc0",
             "Value": {
                 "id": "bc55aa00-e592-47c8-bfc9-7435078802b4",
@@ -279,6 +287,14 @@
             }
         },
         {
+            "Key": "78a5381a-092f-442e-aec4-0059595b7d35",
+            "Value": {
+                "id": "f82444c5-e2ff-415f-a6c8-e580907387ea",
+                "resourcePath": "objects\\obj_hat_top\\obj_hat_top.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "854f2900-549b-4e57-9f66-bf9a30fe9dd1",
             "Value": {
                 "id": "ee34d2bf-33a6-4d62-8295-0ae9ea40a37c",
@@ -343,6 +359,14 @@
             }
         },
         {
+            "Key": "9e26dce2-ab81-4677-83fc-63d7da9325c8",
+            "Value": {
+                "id": "5952c3b3-e653-4853-9ff2-1020e6d1efae",
+                "resourcePath": "objects\\obj_hat_beanie\\obj_hat_beanie.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9fd2cbc2-c3d0-402e-80fb-6b9d50206778",
             "Value": {
                 "id": "4ba9a9f2-5e8f-49e2-910a-c9371b28cef8",
@@ -364,6 +388,14 @@
                 "id": "392afb16-64b6-4781-9c00-70a20d7b6689",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a9b77338-5039-4fe5-b34d-c56fe69a59a9",
+            "Value": {
+                "id": "80a44d10-e9e3-4c0f-a200-2f2033285ddb",
+                "resourcePath": "objects\\obj_hat_bowler\\obj_hat_bowler.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -543,11 +575,27 @@
             }
         },
         {
+            "Key": "eef2dc66-2ac8-43ed-994b-fb17e89f4549",
+            "Value": {
+                "id": "f2d2875e-5870-49df-a8e7-7e52d58a3158",
+                "resourcePath": "sprites\\top\\top.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "eefa8fbe-aec3-4814-aa13-23d107203f5e",
             "Value": {
                 "id": "29df9c93-63ea-480b-ac04-95a93acbe9fc",
                 "resourcePath": "views\\eefa8fbe-aec3-4814-aa13-23d107203f5e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "efe75a8e-4f9c-41a7-b890-07ea0ec95d4d",
+            "Value": {
+                "id": "c5f78f8b-e9d8-4b21-9c87-e6e8868f0b14",
+                "resourcePath": "sprites\\beanie\\beanie.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

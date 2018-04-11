@@ -1,8 +1,8 @@
 {
-    "id": "6c682a7a-d47d-4865-a57f-0e82a69c2f34",
+    "id": "9e26dce2-ab81-4677-83fc-63d7da9325c8",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_hat_viking",
+    "name": "obj_hat_beanie",
     "eventList": [
         
     ],
@@ -24,7 +24,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "42e84a5b-749e-47d7-8204-3cc3315b374c",
+            "id": "410a7e36-3020-4348-9393-e5807b8d2bde",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -33,12 +33,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5",
+            "value": "4",
             "varName": "hat_height",
             "varType": 0
         }
     ],
     "solid": false,
-    "spriteId": "854ff7db-d2f8-49d8-86e3-972f5578301b",
+    "spriteId": "efe75a8e-4f9c-41a7-b890-07ea0ec95d4d",
     "visible": true
 }
