@@ -1,5 +1,11 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
+/// @DnDHash : 4342026F
+/// @DnDArgument : "var" "invuln"
+invuln = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
 /// @DnDHash : 5F499DAD
 /// @DnDArgument : "expr" ".50"
 /// @DnDArgument : "var" "grav"
