@@ -25,6 +25,18 @@ if(invuln == 0)
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
+		/// @DnDHash : 175CD615
+		/// @DnDApplyTo : other
+		/// @DnDParent : 50A3881D
+		/// @DnDArgument : "expr" "other.hat_stack"
+		/// @DnDArgument : "var" "self.hat_stack_pos"
+		with(other) {
+		self.hat_stack_pos = other.hat_stack;
+		
+		}
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
 		/// @DnDHash : 0D34E724
 		/// @DnDParent : 50A3881D
 		/// @DnDArgument : "expr" "1"
@@ -65,18 +77,6 @@ if(invuln == 0)
 		
 		}
 	
-		/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 175CD615
-		/// @DnDApplyTo : other
-		/// @DnDParent : 50A3881D
-		/// @DnDArgument : "expr" "other.hat_stack"
-		/// @DnDArgument : "var" "self.hat_stack_pos"
-		with(other) {
-		self.hat_stack_pos = other.hat_stack;
-		
-		}
-	
 		/// @DnDAction : YoYo Games.Common.If_Expression
 		/// @DnDVersion : 1
 		/// @DnDHash : 4CBEAC5A
@@ -103,16 +103,43 @@ if(invuln == 0)
 		/// @DnDParent : 50A3881D
 		else
 		{
-			/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+			/// @DnDAction : YoYo Games.Common.If_Expression
 			/// @DnDVersion : 1
-			/// @DnDHash : 36868594
-			/// @DnDApplyTo : other
+			/// @DnDHash : 0B1C13A3
 			/// @DnDParent : 4019426E
-			/// @DnDArgument : "x" "other.x"
-			/// @DnDArgument : "y" "other.y - 2 - hat_y_pos"
-			with(other) {
-			x = other.x;
-			y = other.y - 2 - hat_y_pos;
+			/// @DnDArgument : "expr" "image_xscale == 1"
+			if(image_xscale == 1)
+			{
+				/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+				/// @DnDVersion : 1
+				/// @DnDHash : 36868594
+				/// @DnDApplyTo : other
+				/// @DnDParent : 0B1C13A3
+				/// @DnDArgument : "x" "other.x - other.hat_stack"
+				/// @DnDArgument : "y" "other.y - 2 - hat_y_pos"
+				with(other) {
+				x = other.x - other.hat_stack;
+				y = other.y - 2 - hat_y_pos;
+				}
+			}
+		
+			/// @DnDAction : YoYo Games.Common.Else
+			/// @DnDVersion : 1
+			/// @DnDHash : 1B209022
+			/// @DnDParent : 4019426E
+			else
+			{
+				/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+				/// @DnDVersion : 1
+				/// @DnDHash : 49C0EC9B
+				/// @DnDApplyTo : other
+				/// @DnDParent : 1B209022
+				/// @DnDArgument : "x" "other.x + other.hat_stack"
+				/// @DnDArgument : "y" "other.y - 2 - hat_y_pos"
+				with(other) {
+				x = other.x + other.hat_stack;
+				y = other.y - 2 - hat_y_pos;
+				}
 			}
 		}
 	
