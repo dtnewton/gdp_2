@@ -62,13 +62,20 @@ if(l263C5104_0)
 			obj_player_controller.has_top = 0;
 			obj_player_controller.has_bowler = 0;
 		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 749C50F9
+			/// @DnDParent : 3B19D790
+			/// @DnDArgument : "var" "vspd"
+			vspd = 0;
+		
 			/// @DnDAction : YoYo Games.Movement.Set_Speed
 			/// @DnDVersion : 1
 			/// @DnDHash : 7858A1E3
 			/// @DnDParent : 3B19D790
-			/// @DnDArgument : "speed" "-6"
+			/// @DnDArgument : "speed" "-3"
 			/// @DnDArgument : "type" "2"
-			vspeed = -6;
+			vspeed = -3;
 		
 			/// @DnDAction : YoYo Games.Instances.Set_Sprite
 			/// @DnDVersion : 1

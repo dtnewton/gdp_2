@@ -48,3 +48,9 @@ hat_stack = 0;
 /// @DnDHash : 7E3689E8
 /// @DnDArgument : "var" "hat_stack_height"
 hat_stack_height = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2DE3A705
+/// @DnDArgument : "var" "hat_stack_top_id"
+hat_stack_top_id = 0;

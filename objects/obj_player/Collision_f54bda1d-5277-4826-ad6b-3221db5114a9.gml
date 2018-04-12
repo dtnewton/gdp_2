@@ -67,6 +67,18 @@ if(invuln == 0)
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
+		/// @DnDHash : 50F3535E
+		/// @DnDApplyTo : other
+		/// @DnDParent : 50A3881D
+		/// @DnDArgument : "expr" "instance_id"
+		/// @DnDArgument : "var" "other.hat_stack_top_id"
+		with(other) {
+		other.hat_stack_top_id = instance_id;
+		
+		}
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
 		/// @DnDHash : 327F2235
 		/// @DnDApplyTo : other
 		/// @DnDParent : 50A3881D
