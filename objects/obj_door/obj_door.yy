@@ -2,7 +2,7 @@
     "id": "911fca59-78d0-4b36-b717-d8f9a0140c20",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_ammo_crate",
+    "name": "obj_door",
     "eventList": [
         
     ],

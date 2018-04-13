@@ -74,7 +74,7 @@
             "Key": "0befcce0-0add-459d-b9a3-f15b0b8cabbe",
             "Value": {
                 "id": "e4e35a0c-1e79-4699-a0ce-80bf9481bbe6",
-                "resourcePath": "sprites\\sp_ammocrate\\sp_ammocrate.yy",
+                "resourcePath": "sprites\\sp_crate\\sp_crate.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -100,6 +100,14 @@
                 "id": "54e3c4af-e117-4ae3-bd90-85d445e20e3c",
                 "resourcePath": "objects\\obj_projectile\\obj_projectile.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "19a66ab6-ef60-4b47-9430-2dc90fb22a7f",
+            "Value": {
+                "id": "f8ecb6a2-fd8d-4748-85b8-9a12a2691bcf",
+                "resourcePath": "rooms\\room_tbc\\room_tbc.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -172,6 +180,14 @@
                 "id": "832a92bb-9fbf-4aad-aa93-faefb46f3958",
                 "resourcePath": "views\\3f8f9839-3aa0-4759-b1a9-4004bfe78bee.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "494b3edf-fbda-4360-b976-983d1e23814e",
+            "Value": {
+                "id": "18d52b83-2e45-43b6-883b-2f1b67f28675",
+                "resourcePath": "sprites\\sprite_tbc\\sprite_tbc.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -346,7 +362,7 @@
             "Key": "911fca59-78d0-4b36-b717-d8f9a0140c20",
             "Value": {
                 "id": "d746f83e-c560-4f7a-aa1a-3a58edcb8608",
-                "resourcePath": "objects\\obj_ammo_crate\\obj_ammo_crate.yy",
+                "resourcePath": "objects\\obj_door\\obj_door.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -551,10 +567,18 @@
             }
         },
         {
+            "Key": "e89df9e2-ee85-4350-870b-7eba8b6640d2",
+            "Value": {
+                "id": "30499bc7-4419-408a-8b7c-d2d58a95b197",
+                "resourcePath": "objects\\obj_tbc\\obj_tbc.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e8eecf08-81ae-42a9-bef2-2a6e5022ed68",
             "Value": {
                 "id": "a30d2bdb-7260-4060-abae-220f6499a3f5",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\room_level1\\room_level1.yy",
                 "resourceType": "GMRoom"
             }
         },
