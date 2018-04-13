@@ -63,14 +63,6 @@
             }
         },
         {
-            "Key": "0863ef6c-8208-4485-a1e9-f51c420c1161",
-            "Value": {
-                "id": "3c522ffc-9f30-4cb3-80b0-cb9662074c3b",
-                "resourcePath": "sprites\\sp_shogun_r\\sp_shogun_r.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "086f1040-a5f9-4859-b0dd-593d5abef3dd",
             "Value": {
                 "id": "77bf7cd3-c467-4674-b5f7-3feb390d250e",
@@ -108,14 +100,6 @@
                 "id": "54e3c4af-e117-4ae3-bd90-85d445e20e3c",
                 "resourcePath": "objects\\obj_projectile\\obj_projectile.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "0e2ed75b-5ffc-4ab0-a21f-ee9182d7029d",
-            "Value": {
-                "id": "913c173e-8740-4083-b4b4-a28063d3377a",
-                "resourcePath": "sprites\\sp_pistol_r\\sp_pistol_r.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -188,14 +172,6 @@
                 "id": "832a92bb-9fbf-4aad-aa93-faefb46f3958",
                 "resourcePath": "views\\3f8f9839-3aa0-4759-b1a9-4004bfe78bee.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "48a7b22c-2886-40ab-9cb4-f679677ce767",
-            "Value": {
-                "id": "731a7059-0c75-421e-8b42-d5f8eca5c214",
-                "resourcePath": "sprites\\sprite22\\sprite22.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -383,14 +359,6 @@
             }
         },
         {
-            "Key": "998b27d0-3d5b-45bb-9a81-fc491fc8bd16",
-            "Value": {
-                "id": "7a2c4901-cf78-4104-80f0-a0cc0cddbd63",
-                "resourcePath": "extensions\\Agent_Animation_Character\\Agent_Animation_Character.yy",
-                "resourceType": "GMExtension"
-            }
-        },
-        {
             "Key": "9d69edac-b23f-4b04-bdb1-55f8b86212e6",
             "Value": {
                 "id": "671d3409-2d54-4296-84c4-d4cc328c210a",
@@ -439,26 +407,10 @@
             }
         },
         {
-            "Key": "aef47d75-c15d-4baf-8bc6-4fae6d5be21a",
-            "Value": {
-                "id": "d01f10bb-bab8-446a-b094-283736708f7a",
-                "resourcePath": "extensions\\Skeleton_pack\\Skeleton_pack.yy",
-                "resourceType": "GMExtension"
-            }
-        },
-        {
             "Key": "b2dbb0e8-d4b6-404a-b9a4-26bb1fbf1e49",
             "Value": {
                 "id": "7111a4a7-c573-49cb-ae8a-5bd0161e1885",
                 "resourcePath": "views\\b2dbb0e8-d4b6-404a-b9a4-26bb1fbf1e49.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "b501e4c0-e491-4d3d-88c8-4057b9a2895a",
-            "Value": {
-                "id": "abe131b8-abac-42e3-8715-364f4ab84313",
-                "resourcePath": "views\\b501e4c0-e491-4d3d-88c8-4057b9a2895a.yy",
                 "resourceType": "GMFolder"
             }
         },
