@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_enemy_fly",
     "eventList": [
-        
+        {
+            "id": "f7c4d384-17a7-451b-8130-67cf29753ee2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "59f6d6d9-e8d0-4d21-aba1-7cb447667109"
+        },
+        {
+            "id": "51d982de-828b-47f9-80e7-386256be60f5",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "59f6d6d9-e8d0-4d21-aba1-7cb447667109"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "3d92ff4d-bf71-45f2-a890-6271e1802827",
     "visible": true
 }
