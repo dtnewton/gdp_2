@@ -1,23 +1,14 @@
 {
-    "id": "085292e7-3f84-4598-aa47-3aaa3c351f33",
+    "id": "59f6d6d9-e8d0-4d21-aba1-7cb447667109",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_boss_1",
+    "name": "obj_enemy_fly",
     "eventList": [
-        {
-            "id": "6bc50b8b-93a3-48f1-bed1-6b6466acdf8c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "085292e7-3f84-4598-aa47-3aaa3c351f33"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "854f2900-549b-4e57-9f66-bf9a30fe9dd1",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
