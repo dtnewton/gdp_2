@@ -1,5 +1,12 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
+/// @DnDHash : 1BC620D5
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "can_attack"
+can_attack = 1;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
 /// @DnDHash : 4342026F
 /// @DnDArgument : "var" "invuln"
 invuln = 0;
