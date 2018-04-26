@@ -22,7 +22,7 @@ if(l263C5104_0)
 		{
 			/// @DnDAction : YoYo Games.Instances.Change_Instance
 			/// @DnDVersion : 1
-			/// @DnDHash : 08C0142F
+			/// @DnDHash : 158EC23E
 			/// @DnDParent : 3FD2CC32
 			/// @DnDArgument : "objind" "obj_player_dead"
 			/// @DnDSaveInfo : "objind" "d018fff2-96ca-454a-a875-10cae26cbf9c"

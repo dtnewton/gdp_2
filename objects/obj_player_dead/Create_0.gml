@@ -1,14 +1,5 @@
-/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
-/// @DnDHash : 0027A9AB
-/// @DnDArgument : "x" "0"
-/// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "-16"
-/// @DnDArgument : "y_relative" "1"
-x += 0;
-y += -16;
-
-/// @DnDAction : YoYo Games.Movement.Set_Gravity_Force
-/// @DnDVersion : 1
-/// @DnDHash : 56F35DDA
-gravity = 1;
+/// @DnDHash : 0717491B
+/// @DnDArgument : "steps" "room_speed * 4"
+alarm_set(0, room_speed * 4);
