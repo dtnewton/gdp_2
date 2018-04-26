@@ -1,5 +1,11 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
+/// @DnDHash : 070D7FEE
+/// @DnDArgument : "var" "image_speed"
+image_speed = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
 /// @DnDHash : 3F4F5FFF
 /// @DnDArgument : "var" "is_wearing"
 is_wearing = 0;
