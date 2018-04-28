@@ -94,6 +94,17 @@ if(l263C5104_0)
 			/// @DnDArgument : "var" "invuln"
 			invuln = 1;
 		
+			/// @DnDAction : YoYo Games.Instance Variables.Set_Health
+			/// @DnDVersion : 1
+			/// @DnDHash : 5C86D00B
+			/// @DnDApplyTo : e777e034-1ed2-4912-9980-186b880b8f53
+			/// @DnDParent : 3B19D790
+			/// @DnDArgument : "health" "1"
+			with(obj_player_controller) {
+			
+			__dnd_health = real(1);
+			}
+		
 			/// @DnDAction : YoYo Games.Instances.Set_Alarm
 			/// @DnDVersion : 1
 			/// @DnDHash : 31DFD317

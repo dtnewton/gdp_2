@@ -1,7 +1,4 @@
-/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+/// @DnDAction : YoYo Games.Rooms.Next_Room
 /// @DnDVersion : 1
-/// @DnDHash : 7DEC9193
-/// @DnDArgument : "x" "5575"
-/// @DnDArgument : "y" "520"
-x = 5575;
-y = 520;
+/// @DnDHash : 610EFF60
+room_goto_next();

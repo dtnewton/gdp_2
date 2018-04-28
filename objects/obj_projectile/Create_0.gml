@@ -13,5 +13,5 @@ speed = 8;
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 4631BE3F
-/// @DnDArgument : "steps" "room_speed * 3"
-alarm_set(0, room_speed * 3);
+/// @DnDArgument : "steps" "room_speed "
+alarm_set(0, room_speed );

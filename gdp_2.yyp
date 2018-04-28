@@ -410,7 +410,7 @@
             "Key": "911fca59-78d0-4b36-b717-d8f9a0140c20",
             "Value": {
                 "id": "d746f83e-c560-4f7a-aa1a-3a58edcb8608",
-                "resourcePath": "objects\\obj_door\\obj_door.yy",
+                "resourcePath": "objects\\obj_hat_return\\obj_hat_return.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -700,6 +700,14 @@
                 "id": "44b67d5d-fd9a-44e8-9713-0e0ffb1aef2f",
                 "resourcePath": "views\\f45d9825-8747-493c-8e49-244ed6af9a4d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f6794458-a558-4e72-b92f-81387e27eb1e",
+            "Value": {
+                "id": "7a77cade-b928-4ae2-8642-0db571f9a1a8",
+                "resourcePath": "rooms\\room_level2\\room_level2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
