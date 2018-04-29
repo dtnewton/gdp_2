@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 <Layouts><Layout layout_name="DnDWorkspace" layout_guid="b5d74510-4797-46ce-b2a5-9b65f9030e4d" toolbox_size="34px" toolbox_anchor="Last" story_size="164px"><Workspace zoom="1" pan="[105.5, 155]" /><Node left="77" top="126" width="1113" height="674" hash="2AEDA085" /></Layout></Layouts>
+=======
+<Layouts><Layout layout_name="DnDWorkspace" layout_guid="9578cf1b-bc90-48ca-8282-95de112fb23a" toolbox_size="34px" toolbox_anchor="Last" story_size="164px"><Workspace zoom="1" pan="[105.5, 155]" /><Node left="77" top="126" width="1113" height="674" hash="2AEDA085" /></Layout></Layouts>
+>>>>>>> 6de7bca7ae5c57d870165428f2932f74c8908bd8
