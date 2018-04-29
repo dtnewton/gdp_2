@@ -14,7 +14,7 @@ draw_healthbar(view_xview[0]+32, view_yview[0]+32, view_xview[0]+128, view_yview
 /// @DnDAction : YoYo Games.Drawing.Draw_Instance_Lives
 /// @DnDVersion : 1
 /// @DnDHash : 443FDA7A
-/// @DnDArgument : "x" "view_xview[0] + 38"
+/// @DnDArgument : "x" "view_xview[0] + 48"
 /// @DnDArgument : "y" "view_yview[0] + 82"
 /// @DnDArgument : "sprite" "sp_player_r"
 /// @DnDSaveInfo : "sprite" "eca13e25-936a-4077-9eb2-4e6941394256"
@@ -22,6 +22,24 @@ var l443FDA7A_0 = sprite_get_width(sp_player_r);
 var l443FDA7A_1 = 0;
 if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
 for(var l443FDA7A_2 = __dnd_lives; l443FDA7A_2 > 0; --l443FDA7A_2) {
-	draw_sprite(sp_player_r, 0, view_xview[0] + 38 + l443FDA7A_1, view_yview[0] + 82);
+	draw_sprite(sp_player_r, 0, view_xview[0] + 48 + l443FDA7A_1, view_yview[0] + 82);
 	l443FDA7A_1 += l443FDA7A_0;
 }
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Line
+/// @DnDVersion : 1
+/// @DnDHash : 34FB7E19
+/// @DnDArgument : "x1" "view_xview[0] + 40"
+/// @DnDArgument : "y1" "view_yview[0] + 92"
+/// @DnDArgument : "x2" "view_xview[0] + 86"
+/// @DnDArgument : "y2" "view_yview[0] + 92"
+draw_line(view_xview[0] + 40, view_yview[0] + 92, view_xview[0] + 86, view_yview[0] + 92);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 6BDDA8FD
+/// @DnDArgument : "x" "view_xview[0] + 132"
+/// @DnDArgument : "y" "view_yview[0] + 47"
+/// @DnDArgument : "caption" ""Hats Collected: ""
+/// @DnDArgument : "text" "has_beanie + has_bowler + has_top + has_viking"
+draw_text_transformed(view_xview[0] + 132, view_yview[0] + 47, string("Hats Collected: ") + string(has_beanie + has_bowler + has_top + has_viking), 1, 1, 0);
