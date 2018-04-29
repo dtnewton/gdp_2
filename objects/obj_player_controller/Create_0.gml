@@ -35,9 +35,3 @@ __dnd_health = real(100);
 /// @DnDArgument : "lives" "3"
 
 __dnd_lives = real(3);
-
-/// @DnDAction : YoYo Games.Instances.Set_Alarm
-/// @DnDVersion : 1
-/// @DnDHash : 58327695
-/// @DnDArgument : "steps" "room_speed* 5"
-alarm_set(0, room_speed* 5);

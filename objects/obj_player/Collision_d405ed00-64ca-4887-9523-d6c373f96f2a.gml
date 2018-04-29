@@ -1,3 +1,12 @@
+/// @DnDAction : YoYo Games.Instance Variables.Set_Health
+/// @DnDVersion : 1
+/// @DnDHash : 46633F75
+/// @DnDApplyTo : e777e034-1ed2-4912-9980-186b880b8f53
+with(obj_player_controller) {
+
+__dnd_health = real(0);
+}
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 72743CD2

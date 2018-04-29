@@ -1,3 +1,20 @@
+/// @DnDAction : YoYo Games.Instance Variables.Set_Health
+/// @DnDVersion : 1
+/// @DnDHash : 1BD32915
+/// @DnDApplyTo : e777e034-1ed2-4912-9980-186b880b8f53
+/// @DnDArgument : "health" "100"
+with(obj_player_controller) {
+
+__dnd_health = real(100);
+}
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 604F9A86
+/// @DnDArgument : "steps" "room_speed"
+/// @DnDArgument : "alarm" "4"
+alarm_set(4, room_speed);
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1BC620D5

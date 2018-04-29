@@ -9,15 +9,23 @@ if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
 var curr_hp = __dnd_health;
 }
 
-/// @DnDAction : YoYo Games.Instance Variables.Set_Health
+/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 033E7ECF
-/// @DnDApplyTo : e777e034-1ed2-4912-9980-186b880b8f53
-/// @DnDArgument : "health" "-.50"
-/// @DnDArgument : "health_relative" "1"
-with(obj_player_controller) {
-if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
-__dnd_health += real(-.50);
+/// @DnDHash : 2CC53457
+/// @DnDArgument : "var" "invuln"
+if(invuln == 0)
+{
+	/// @DnDAction : YoYo Games.Instance Variables.Set_Health
+	/// @DnDVersion : 1
+	/// @DnDHash : 033E7ECF
+	/// @DnDApplyTo : e777e034-1ed2-4912-9980-186b880b8f53
+	/// @DnDParent : 2CC53457
+	/// @DnDArgument : "health" "-.50"
+	/// @DnDArgument : "health_relative" "1"
+	with(obj_player_controller) {
+	if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
+	__dnd_health += real(-.50);
+	}
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
