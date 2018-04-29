@@ -37,8 +37,8 @@ if(l14040DD0_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 00A2EFEE
 		/// @DnDParent : 73D62EA0
-		/// @DnDArgument : "steps" "room_speed * 1.5"
+		/// @DnDArgument : "steps" "room_speed  * 0.5"
 		/// @DnDArgument : "alarm" "2"
-		alarm_set(2, room_speed * 1.5);
+		alarm_set(2, room_speed  * 0.5);
 	}
 }
