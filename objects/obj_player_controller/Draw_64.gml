@@ -52,9 +52,9 @@ if(l1F30E78A_0)
 	/// @DnDArgument : "y" "view_yview[0]+750"
 	/// @DnDArgument : "xscale" "5"
 	/// @DnDArgument : "yscale" "5"
-	/// @DnDArgument : "sprite" "sp_vikinghat_r"
-	/// @DnDSaveInfo : "sprite" "854ff7db-d2f8-49d8-86e3-972f5578301b"
-	draw_sprite_ext(sp_vikinghat_r, 0, view_xview[0]+32, view_yview[0]+750, 5, 5, 0, $FFFFFFFF & $ffffff, ($FFFFFFFF >> 24) / $ff);
+	/// @DnDArgument : "sprite" "bowler"
+	/// @DnDSaveInfo : "sprite" "24fa7649-5262-46c1-b925-75c6d750eb6c"
+	draw_sprite_ext(bowler, 0, view_xview[0]+32, view_yview[0]+750, 5, 5, 0, $FFFFFFFF & $ffffff, ($FFFFFFFF >> 24) / $ff);
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 	/// @DnDVersion : 1
@@ -88,9 +88,9 @@ if(l1F30E78A_0)
 	/// @DnDArgument : "y" "view_yview[0]+585"
 	/// @DnDArgument : "xscale" "5"
 	/// @DnDArgument : "yscale" "5"
-	/// @DnDArgument : "sprite" "bowler"
-	/// @DnDSaveInfo : "sprite" "24fa7649-5262-46c1-b925-75c6d750eb6c"
-	draw_sprite_ext(bowler, 0, view_xview[0]+32, view_yview[0]+585, 5, 5, 0, $FFFFFFFF & $ffffff, ($FFFFFFFF >> 24) / $ff);
+	/// @DnDArgument : "sprite" "sp_vikinghat_r"
+	/// @DnDSaveInfo : "sprite" "854ff7db-d2f8-49d8-86e3-972f5578301b"
+	draw_sprite_ext(sp_vikinghat_r, 0, view_xview[0]+32, view_yview[0]+585, 5, 5, 0, $FFFFFFFF & $ffffff, ($FFFFFFFF >> 24) / $ff);
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1
@@ -98,9 +98,9 @@ if(l1F30E78A_0)
 	/// @DnDParent : 1F30E78A
 	/// @DnDArgument : "x" "view_xview[0]+70"
 	/// @DnDArgument : "y" "view_yview[0]+565"
-	/// @DnDArgument : "caption" ""Speed: ""
-	/// @DnDArgument : "var" "obj_player.movement_speed + has_bowler"
-	draw_text(view_xview[0]+70, view_yview[0]+565, string("Speed: ") + string(obj_player.movement_speed + has_bowler));
+	/// @DnDArgument : "caption" ""Attack: ""
+	/// @DnDArgument : "var" "has_viking"
+	draw_text(view_xview[0]+70, view_yview[0]+565, string("Attack: ") + string(has_viking));
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1
@@ -117,10 +117,10 @@ if(l1F30E78A_0)
 	/// @DnDHash : 41ABF932
 	/// @DnDParent : 1F30E78A
 	/// @DnDArgument : "x" "view_xview[0]+70"
-	/// @DnDArgument : "y" "view_yview[0]+660"
+	/// @DnDArgument : "y" "view_yview[0]+662"
 	/// @DnDArgument : "caption" ""HP Regen: ""
 	/// @DnDArgument : "var" "has_top"
-	draw_text(view_xview[0]+70, view_yview[0]+660, string("HP Regen: ") + string(has_top));
+	draw_text(view_xview[0]+70, view_yview[0]+662, string("HP Regen: ") + string(has_top));
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1
@@ -128,7 +128,17 @@ if(l1F30E78A_0)
 	/// @DnDParent : 1F30E78A
 	/// @DnDArgument : "x" "view_xview[0]+70"
 	/// @DnDArgument : "y" "view_yview[0]+725"
-	/// @DnDArgument : "caption" ""Attack: ""
-	/// @DnDArgument : "var" "has_viking"
-	draw_text(view_xview[0]+70, view_yview[0]+725, string("Attack: ") + string(has_viking));
+	/// @DnDArgument : "caption" ""Speed: ""
+	/// @DnDArgument : "var" "obj_player.movement_speed + (has_bowler)"
+	draw_text(view_xview[0]+70, view_yview[0]+725, string("Speed: ") + string(obj_player.movement_speed + (has_bowler)));
+
+	/// @DnDAction : YoYo Games.Drawing.Draw_Rectangle
+	/// @DnDVersion : 1
+	/// @DnDHash : 22B0E69E
+	/// @DnDParent : 1F30E78A
+	/// @DnDArgument : "x1" "view_xview[0]+1"
+	/// @DnDArgument : "y1" "view_yview[0]+550"
+	/// @DnDArgument : "x2" "view_xview[0]+175"
+	/// @DnDArgument : "y2" "view_yview[0]+759"
+	draw_rectangle(view_xview[0]+1, view_yview[0]+550, view_xview[0]+175, view_yview[0]+759, 1);
 }
