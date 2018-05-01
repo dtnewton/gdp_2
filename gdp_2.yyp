@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "38e7fb2d-aae3-497f-86e9-39d3c937d71e",
+            "Value": {
+                "id": "330b307e-12ff-4c48-aeac-732d3f7d77ee",
+                "resourcePath": "objects\\obj_moving_platform_fast\\obj_moving_platform_fast.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3b1ccb9d-bdc1-44b5-b37e-8c41981245eb",
             "Value": {
                 "id": "dc37a769-7c8d-4aaf-aa73-f79d5be29994",
@@ -468,6 +476,14 @@
                 "id": "d91d26d3-f5b8-435a-8abb-c0978b0042a1",
                 "resourcePath": "views\\93fcc0bc-ab17-4309-b9c4-57eeed4166ff.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "98ce6814-7d70-4da0-85eb-cec660353c60",
+            "Value": {
+                "id": "d8733963-a920-4fa6-bb24-5394c2b835b8",
+                "resourcePath": "sprites\\spr_conveyer_belt_rev\\spr_conveyer_belt_rev.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
