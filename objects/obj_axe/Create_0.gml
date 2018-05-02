@@ -12,9 +12,9 @@ gravity = 1;
 /// @DnDAction : YoYo Games.Movement.Set_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 5D77869D
-/// @DnDArgument : "speed" "-8"
+/// @DnDArgument : "speed" "-9"
 /// @DnDArgument : "type" "2"
-vspeed = -8;
+vspeed = -9;
 
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
@@ -26,9 +26,9 @@ if(obj_player.image_xscale > 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 0BA31F95
 	/// @DnDParent : 57D71ADC
-	/// @DnDArgument : "speed" "obj_player.movement_speed + 4"
+	/// @DnDArgument : "speed" "obj_player.movement_speed + 3"
 	/// @DnDArgument : "type" "1"
-	hspeed = obj_player.movement_speed + 4;
+	hspeed = obj_player.movement_speed + 3;
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -56,9 +56,9 @@ else
 	/// @DnDVersion : 1
 	/// @DnDHash : 50CB8DED
 	/// @DnDParent : 25A47B9B
-	/// @DnDArgument : "speed" "(-1) * obj_player. movement_speed - 4"
+	/// @DnDArgument : "speed" "(-1) * obj_player. movement_speed - 3"
 	/// @DnDArgument : "type" "1"
-	hspeed = (-1) * obj_player. movement_speed - 4;
+	hspeed = (-1) * obj_player. movement_speed - 3;
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
