@@ -455,11 +455,27 @@
             }
         },
         {
+            "Key": "89c2e26f-7706-4833-b8a1-ccdb353d1c27",
+            "Value": {
+                "id": "deeead90-13fe-4165-9d2f-3cfd91e9e522",
+                "resourcePath": "tilesets\\start_graphic\\start_graphic.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "8ba8556f-ba69-40cb-b636-fc85e2ef5f6f",
             "Value": {
                 "id": "d641db32-2d9e-4f51-b930-7701101b7690",
                 "resourcePath": "sprites\\bg_brickwall\\bg_brickwall.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8e283b8b-38ef-4d38-8dc5-231131d4bdff",
+            "Value": {
+                "id": "ba78be18-1b75-48af-8c11-3057c87e73a0",
+                "resourcePath": "objects\\obj_player_title\\obj_player_title.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -483,6 +499,22 @@
             "Value": {
                 "id": "d8733963-a920-4fa6-bb24-5394c2b835b8",
                 "resourcePath": "sprites\\spr_conveyer_belt_rev\\spr_conveyer_belt_rev.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9c463d13-d099-4307-a8c0-342a5e472aa0",
+            "Value": {
+                "id": "28840e93-358c-4948-bc55-e8a424179b6b",
+                "resourcePath": "rooms\\title_screen\\title_screen.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "9c678900-4d07-4d35-863d-cab070f7e5ca",
+            "Value": {
+                "id": "02389aa5-9314-450e-98ae-0946d0f7926d",
+                "resourcePath": "sprites\\sprite29\\sprite29.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -724,6 +756,14 @@
                 "id": "b1b8d87c-c4a9-498b-8057-70159927fbfb",
                 "resourcePath": "objects\\obj_temp\\obj_temp.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ec78b865-f071-425a-aa12-f9cb03b8d277",
+            "Value": {
+                "id": "b8850bbf-8dba-4dcf-98ba-00dfe09ce80f",
+                "resourcePath": "views\\ec78b865-f071-425a-aa12-f9cb03b8d277.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
