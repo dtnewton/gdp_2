@@ -567,6 +567,14 @@
             }
         },
         {
+            "Key": "8a5345de-f92a-4c5c-96ff-60832ba3580e",
+            "Value": {
+                "id": "bd39ea7a-c48c-4d07-92ca-ad451c83efa2",
+                "resourcePath": "sprites\\hatboy_logo\\hatboy_logo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8ba8556f-ba69-40cb-b636-fc85e2ef5f6f",
             "Value": {
                 "id": "d641db32-2d9e-4f51-b930-7701101b7690",

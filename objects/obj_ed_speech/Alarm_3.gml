@@ -27,8 +27,8 @@ if(obj_score_controller.total_hats == 0)
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 71753CC6
-/// @DnDArgument : "expr" "obj_score_controller.total_hats > 0 && obj_score_controller.total_hats <= 10"
-if(obj_score_controller.total_hats > 0 && obj_score_controller.total_hats <= 10)
+/// @DnDArgument : "expr" "obj_score_controller.total_hats > 0 && obj_score_controller.total_hats <= 19"
+if(obj_score_controller.total_hats > 0 && obj_score_controller.total_hats <= 19)
 {
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
@@ -53,8 +53,8 @@ if(obj_score_controller.total_hats > 0 && obj_score_controller.total_hats <= 10)
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 2CD09B3A
-/// @DnDArgument : "expr" "obj_score_controller.total_hats > 10 && obj_score_controller.total_hats <= 30"
-if(obj_score_controller.total_hats > 10 && obj_score_controller.total_hats <= 30)
+/// @DnDArgument : "expr" "obj_score_controller.total_hats > 19 && obj_score_controller.total_hats <= 37"
+if(obj_score_controller.total_hats > 19 && obj_score_controller.total_hats <= 37)
 {
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
@@ -67,8 +67,8 @@ if(obj_score_controller.total_hats > 10 && obj_score_controller.total_hats <= 30
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 3C811FD2
-/// @DnDArgument : "expr" "obj_score_controller.total_hats > 30"
-if(obj_score_controller.total_hats > 30)
+/// @DnDArgument : "expr" "obj_score_controller.total_hats == 38"
+if(obj_score_controller.total_hats == 38)
 {
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
