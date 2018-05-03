@@ -655,6 +655,14 @@
             }
         },
         {
+            "Key": "9ba5f318-3fd2-4503-a307-1b8005650eb7",
+            "Value": {
+                "id": "9778d2e1-759b-4bf8-89ab-be048c0debb8",
+                "resourcePath": "sounds\\snd_lvl_music_1\\snd_lvl_music_1.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "9c463d13-d099-4307-a8c0-342a5e472aa0",
             "Value": {
                 "id": "28840e93-358c-4948-bc55-e8a424179b6b",
