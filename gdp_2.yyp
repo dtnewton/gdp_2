@@ -615,6 +615,14 @@
             }
         },
         {
+            "Key": "b4d3cd40-a28f-47ea-ac12-94aba12a92a7",
+            "Value": {
+                "id": "388acc65-6ea4-4a7c-a8ee-2307045a0c1c",
+                "resourcePath": "objects\\obj_boss_rock\\obj_boss_rock.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b5db4122-894e-4dcb-b851-e132532f1abe",
             "Value": {
                 "id": "5addc357-ab7e-4cb3-9ad1-f01d50ed41cc",

@@ -7,6 +7,13 @@ hspeed = -1;
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
+/// @DnDHash : 713F8A7D
+/// @DnDArgument : "steps" "room_speed * 2"
+/// @DnDArgument : "alarm" "2"
+alarm_set(2, room_speed * 2);
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
 /// @DnDHash : 706C771D
 /// @DnDArgument : "steps" "room_speed * 4"
 alarm_set(0, room_speed * 4);

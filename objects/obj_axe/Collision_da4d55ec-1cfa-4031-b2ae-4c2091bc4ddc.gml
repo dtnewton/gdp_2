@@ -1,3 +1,19 @@
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 0BF11AD6
+instance_destroy();
+
+/// @DnDAction : YoYo Games.Instance Variables.Set_Health
+/// @DnDVersion : 1
+/// @DnDHash : 027C68ED
+/// @DnDApplyTo : c40f4297-22d2-482f-8e26-0545a3f1bf1e
+/// @DnDArgument : "health" "-25"
+/// @DnDArgument : "health_relative" "1"
+with(obj_boss_controller) {
+if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
+__dnd_health += real(-25);
+}
+
 /// @DnDAction : YoYo Games.Instance Variables.If_Health
 /// @DnDVersion : 1
 /// @DnDHash : 78DC9694
@@ -9,23 +25,7 @@ var l78DC9694_0 = __dnd_health > 0;
 }
 if(l78DC9694_0)
 {
-	/// @DnDAction : YoYo Games.Instance Variables.Set_Health
-	/// @DnDVersion : 1
-	/// @DnDHash : 027C68ED
-	/// @DnDApplyTo : c40f4297-22d2-482f-8e26-0545a3f1bf1e
-	/// @DnDParent : 78DC9694
-	/// @DnDArgument : "health" "-25"
-	/// @DnDArgument : "health_relative" "1"
-	with(obj_boss_controller) {
-	if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
-	__dnd_health += real(-25);
-	}
 
-	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 0BF11AD6
-	/// @DnDParent : 78DC9694
-	instance_destroy();
 }
 
 /// @DnDAction : YoYo Games.Common.Else
@@ -39,6 +39,13 @@ else
 	/// @DnDApplyTo : other
 	/// @DnDParent : 7AF50E23
 	with(other) instance_destroy();
+
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 79125106
+	/// @DnDApplyTo : 854f2900-549b-4e57-9f66-bf9a30fe9dd1
+	/// @DnDParent : 7AF50E23
+	with(obj_enemy_parent) instance_destroy();
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
