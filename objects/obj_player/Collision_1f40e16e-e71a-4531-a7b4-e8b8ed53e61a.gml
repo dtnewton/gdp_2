@@ -38,8 +38,50 @@ obj_score_controller.total_vikings += obj_player_controller.has_viking;
 /// @DnDArgument : "var" "obj_score_controller.total_hats"
 obj_score_controller.total_hats += obj_player_controller.has_viking + obj_player_controller.has_beanie  + obj_player_controller.has_bowler + obj_player_controller.has_top;
 
-/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 0B3B29E3
-/// @DnDApplyTo : 75a8ff57-500d-479c-b4b9-9eae73e9b2af
-with(obj_hat) instance_destroy();
+/// @DnDHash : 3693549C
+/// @DnDArgument : "var" "obj_player_controller.has_beanie"
+obj_player_controller.has_beanie = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 36FEFCBD
+/// @DnDArgument : "var" "obj_player_controller.has_viking"
+obj_player_controller.has_viking = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 19AA5364
+/// @DnDArgument : "var" "obj_player_controller.has_top"
+obj_player_controller.has_top = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2D5F7257
+/// @DnDArgument : "var" "obj_player_controller.has_bowler"
+obj_player_controller.has_bowler = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 53A4A72E
+/// @DnDArgument : "var" "hat_stack_height"
+hat_stack_height = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1C86DE29
+/// @DnDArgument : "var" "hat_stack"
+hat_stack = 0;
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 38424924
+/// @DnDArgument : "code" "var i;$(13_10)for(i = 0; i < instance_number(obj_hat); i+=1){$(13_10)	var inst = instance_find(obj_hat, i);$(13_10)	if(inst.is_wearing == 1){$(13_10)		instance_destroy(inst);$(13_10)	}$(13_10)}"
+var i;
+for(i = 0; i < instance_number(obj_hat); i+=1){
+	var inst = instance_find(obj_hat, i);
+	if(inst.is_wearing == 1){
+		instance_destroy(inst);
+	}
+}
