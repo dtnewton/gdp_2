@@ -22,16 +22,44 @@ if(invuln == 0)
 		/// @DnDArgument : "value" "1"
 		if(can_attack == 1)
 		{
-			/// @DnDAction : YoYo Games.Instances.Create_Instance
+			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
-			/// @DnDHash : 768F7B78
+			/// @DnDHash : 55457506
 			/// @DnDParent : 73D62EA0
-			/// @DnDArgument : "xpos_relative" "1"
-			/// @DnDArgument : "ypos_relative" "1"
-			/// @DnDArgument : "objectid" "obj_axe"
-			/// @DnDArgument : "layer" ""instance_player""
-			/// @DnDSaveInfo : "objectid" "5efb4cde-8f51-4ba5-b26e-76c7ff44c8ee"
-			instance_create_layer(x + 0, y + 0, "instance_player", obj_axe);
+			/// @DnDArgument : "var" "obj_player.image_xscale > 0"
+			if(obj_player.image_xscale > 0 == 0)
+			{
+				/// @DnDAction : YoYo Games.Instances.Create_Instance
+				/// @DnDVersion : 1
+				/// @DnDHash : 768F7B78
+				/// @DnDParent : 55457506
+				/// @DnDArgument : "xpos" "-8"
+				/// @DnDArgument : "xpos_relative" "1"
+				/// @DnDArgument : "ypos_relative" "1"
+				/// @DnDArgument : "objectid" "obj_axe"
+				/// @DnDArgument : "layer" ""instance_player""
+				/// @DnDSaveInfo : "objectid" "5efb4cde-8f51-4ba5-b26e-76c7ff44c8ee"
+				instance_create_layer(x + -8, y + 0, "instance_player", obj_axe);
+			}
+		
+			/// @DnDAction : YoYo Games.Common.Else
+			/// @DnDVersion : 1
+			/// @DnDHash : 506440B2
+			/// @DnDParent : 73D62EA0
+			else
+			{
+				/// @DnDAction : YoYo Games.Instances.Create_Instance
+				/// @DnDVersion : 1
+				/// @DnDHash : 6A76DBB9
+				/// @DnDParent : 506440B2
+				/// @DnDArgument : "xpos" "8"
+				/// @DnDArgument : "xpos_relative" "1"
+				/// @DnDArgument : "ypos_relative" "1"
+				/// @DnDArgument : "objectid" "obj_axe"
+				/// @DnDArgument : "layer" ""instance_player""
+				/// @DnDSaveInfo : "objectid" "5efb4cde-8f51-4ba5-b26e-76c7ff44c8ee"
+				instance_create_layer(x + 8, y + 0, "instance_player", obj_axe);
+			}
 		
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
@@ -72,6 +100,7 @@ if(invuln == 0)
 			/// @DnDArgument : "ypos_relative" "1"
 			/// @DnDArgument : "objectid" "obj_pebble"
 			/// @DnDArgument : "layer" ""instance_player""
+			/// @DnDSaveInfo : "objectid" "1363a039-ef02-49c8-a673-a5e672c87da2"
 			instance_create_layer(x + 0, y + 0, "instance_player", obj_pebble);
 		
 			/// @DnDAction : YoYo Games.Common.Variable

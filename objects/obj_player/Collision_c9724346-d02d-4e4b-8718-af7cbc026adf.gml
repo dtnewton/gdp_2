@@ -1,3 +1,49 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6C40E977
+/// @DnDArgument : "expr" "obj_player_controller.has_beanie"
+/// @DnDArgument : "expr_relative" "1"
+/// @DnDArgument : "var" "obj_score_controller.total_beanies"
+obj_score_controller.total_beanies += obj_player_controller.has_beanie;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7115531D
+/// @DnDArgument : "expr" "obj_player_controller.has_bowler"
+/// @DnDArgument : "expr_relative" "1"
+/// @DnDArgument : "var" "obj_score_controller.total_bowlers"
+obj_score_controller.total_bowlers += obj_player_controller.has_bowler;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4FDA4A49
+/// @DnDArgument : "expr" "obj_player_controller.has_top"
+/// @DnDArgument : "expr_relative" "1"
+/// @DnDArgument : "var" "obj_score_controller.total_tops"
+obj_score_controller.total_tops += obj_player_controller.has_top;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 27682132
+/// @DnDArgument : "expr" "obj_player_controller.has_viking"
+/// @DnDArgument : "expr_relative" "1"
+/// @DnDArgument : "var" "obj_score_controller.total_vikings"
+obj_score_controller.total_vikings += obj_player_controller.has_viking;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 069C035C
+/// @DnDArgument : "expr" "obj_player_controller.has_viking + obj_player_controller.has_beanie  + obj_player_controller.has_bowler + obj_player_controller.has_top"
+/// @DnDArgument : "expr_relative" "1"
+/// @DnDArgument : "var" "obj_score_controller.total_hats"
+obj_score_controller.total_hats += obj_player_controller.has_viking + obj_player_controller.has_beanie  + obj_player_controller.has_bowler + obj_player_controller.has_top;
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 1BFB0143
+/// @DnDApplyTo : 75a8ff57-500d-479c-b4b9-9eae73e9b2af
+with(obj_hat) instance_destroy();
+
 /// @DnDAction : YoYo Games.Rooms.Next_Room
 /// @DnDVersion : 1
 /// @DnDHash : 713924D8
