@@ -35,6 +35,14 @@ if(invuln == 0)
 	/// @DnDArgument : "value" "1"
 	if(curr_hp == 1)
 	{
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 6D3D86EC
+		/// @DnDParent : 5E934F8F
+		/// @DnDArgument : "soundid" "sfx_player_hurt"
+		/// @DnDSaveInfo : "soundid" "856cc46e-1a40-4997-8544-d279e5c066d6"
+		audio_play_sound(sfx_player_hurt, 0, 0);
+	
 		/// @DnDAction : YoYo Games.Common.Execute_Code
 		/// @DnDVersion : 1
 		/// @DnDHash : 2B0D7887

@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 7DDC98C3
+/// @DnDArgument : "soundid" "sfx_npc_death_alternate"
+/// @DnDSaveInfo : "soundid" "045cab3a-cc5e-4e16-a2fd-10033e013304"
+audio_play_sound(sfx_npc_death_alternate, 0, 0);
+
 /// @DnDAction : YoYo Games.Instance Variables.Set_Health
 /// @DnDVersion : 1
 /// @DnDHash : 66198AE3

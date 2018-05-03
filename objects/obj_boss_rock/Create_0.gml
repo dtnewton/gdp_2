@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 426A7939
+/// @DnDArgument : "soundid" "sfx_boss_fire"
+/// @DnDSaveInfo : "soundid" "904be750-5827-48e3-8a1e-5a17ccbb0981"
+audio_play_sound(sfx_boss_fire, 0, 0);
+
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Point
 /// @DnDVersion : 1
 /// @DnDHash : 2E8089D3
@@ -22,8 +29,8 @@ image_yscale = 2;
 /// @DnDAction : YoYo Games.Movement.Set_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 6CC41242
-/// @DnDArgument : "speed" "5"
-speed = 5;
+/// @DnDArgument : "speed" "7"
+speed = 7;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

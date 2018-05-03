@@ -10,5 +10,5 @@ instance_create_layer(x + 0, y + 0, "Instances", obj_enemy_fly);
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 74A3D46B
-/// @DnDArgument : "steps" "room_speed * 4"
-alarm_set(0, room_speed * 4);
+/// @DnDArgument : "steps" "room_speed * 12"
+alarm_set(0, room_speed * 12);

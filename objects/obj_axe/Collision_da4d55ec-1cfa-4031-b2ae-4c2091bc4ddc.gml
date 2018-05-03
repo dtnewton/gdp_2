@@ -7,11 +7,11 @@ instance_destroy();
 /// @DnDVersion : 1
 /// @DnDHash : 027C68ED
 /// @DnDApplyTo : c40f4297-22d2-482f-8e26-0545a3f1bf1e
-/// @DnDArgument : "health" "-25"
+/// @DnDArgument : "health" "-10 - (obj_player_controller.has_viking * 2)"
 /// @DnDArgument : "health_relative" "1"
 with(obj_boss_controller) {
 if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
-__dnd_health += real(-25);
+__dnd_health += real(-10 - (obj_player_controller.has_viking * 2));
 }
 
 /// @DnDAction : YoYo Games.Instance Variables.If_Health
@@ -39,6 +39,14 @@ else
 	/// @DnDApplyTo : other
 	/// @DnDParent : 7AF50E23
 	with(other) instance_destroy();
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 7ECFE662
+	/// @DnDParent : 7AF50E23
+	/// @DnDArgument : "soundid" "sfx_boss_death_alert"
+	/// @DnDSaveInfo : "soundid" "62faa449-7cb6-4474-a897-85566b178a8a"
+	audio_play_sound(sfx_boss_death_alert, 0, 0);
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
