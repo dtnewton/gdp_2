@@ -141,4 +141,29 @@ if(l1F30E78A_0)
 	/// @DnDArgument : "x2" "view_xview[0]+185"
 	/// @DnDArgument : "y2" "view_yview[0]+759"
 	draw_rectangle(view_xview[0]+11, view_yview[0]+550, view_xview[0]+185, view_yview[0]+759, 1);
+
+	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
+	/// @DnDVersion : 1
+	/// @DnDHash : 3A1A062C
+	/// @DnDParent : 1F30E78A
+	/// @DnDArgument : "obj" "obj_boss_controller"
+	/// @DnDSaveInfo : "obj" "c40f4297-22d2-482f-8e26-0545a3f1bf1e"
+	var l3A1A062C_0 = false;
+	l3A1A062C_0 = instance_exists(obj_boss_controller);
+	if(l3A1A062C_0)
+	{
+		/// @DnDAction : YoYo Games.Drawing.Draw_Healthbar
+		/// @DnDVersion : 1
+		/// @DnDHash : 73DA6426
+		/// @DnDApplyTo : c40f4297-22d2-482f-8e26-0545a3f1bf1e
+		/// @DnDParent : 3A1A062C
+		/// @DnDArgument : "x1" "view_xview[0]+830"
+		/// @DnDArgument : "y1" "view_yview[0]+32"
+		/// @DnDArgument : "x2" "view_xview[0]+1000"
+		/// @DnDArgument : "y2" "view_yview[0]+62"
+		/// @DnDArgument : "barcol" "$FF000000"
+		/// @DnDArgument : "mincol" "$FF0000FF"
+		/// @DnDArgument : "maxcol" "$FF00FF00"
+		with(obj_boss_controller) draw_healthbar(view_xview[0]+830, view_yview[0]+32, view_xview[0]+1000, view_yview[0]+62, 100, $FFFFFFFF & $FFFFFF, $FF0000FF & $FFFFFF, $FF00FF00 & $FFFFFF, 0, (($FFFFFFFF>>24) != 0), (($FF000000>>24) != 0));
+	}
 }
