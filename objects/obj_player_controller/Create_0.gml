@@ -35,3 +35,10 @@ __dnd_health = real(100);
 /// @DnDArgument : "lives" "3"
 
 __dnd_lives = real(3);
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 33D37594
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "paused"
+paused = false;
