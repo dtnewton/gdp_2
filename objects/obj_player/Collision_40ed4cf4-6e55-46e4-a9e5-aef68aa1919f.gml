@@ -1,10 +1,3 @@
-/// @DnDAction : YoYo Games.Audio.Play_Audio
-/// @DnDVersion : 1
-/// @DnDHash : 6179B4F5
-/// @DnDArgument : "soundid" "sfx_player_hurt"
-/// @DnDSaveInfo : "soundid" "856cc46e-1a40-4997-8544-d279e5c066d6"
-audio_play_sound(sfx_player_hurt, 0, 0);
-
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 263C5104
@@ -119,5 +112,13 @@ if(l263C5104_0)
 			/// @DnDArgument : "steps" "room_speed*2"
 			alarm_set(0, room_speed*2);
 		}
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 6179B4F5
+		/// @DnDParent : 3974EAF8
+		/// @DnDArgument : "soundid" "sfx_player_hurt"
+		/// @DnDSaveInfo : "soundid" "856cc46e-1a40-4997-8544-d279e5c066d6"
+		audio_play_sound(sfx_player_hurt, 0, 0);
 	}
 }
