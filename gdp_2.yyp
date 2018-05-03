@@ -362,7 +362,7 @@
             "Key": "573c47e7-7e8a-4dca-bdfe-475379a7c1d3",
             "Value": {
                 "id": "3de23459-077e-4f43-8855-f81a891b5e6a",
-                "resourcePath": "sprites\\spr_projectile\\spr_projectile.yy",
+                "resourcePath": "sprites\\spr_portal\\spr_portal.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -396,6 +396,14 @@
                 "id": "49f8e5f2-f8e8-4058-afd4-e9abeb3d2c34",
                 "resourcePath": "objects\\obj_spikes\\obj_spikes.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "65cf8a96-5398-4a84-90ed-35471513e3e1",
+            "Value": {
+                "id": "5310b4b3-a325-4bd9-9114-53d98a1bef12",
+                "resourcePath": "sprites\\spr_poison\\spr_poison.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
