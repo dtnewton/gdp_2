@@ -999,6 +999,14 @@
             }
         },
         {
+            "Key": "e93693a8-a8c5-4cf5-beca-a647da5bb93a",
+            "Value": {
+                "id": "84a35c2d-da9a-44a0-8257-54df6cc420e9",
+                "resourcePath": "shaders\\portal_shader\\portal_shader.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "e9fc0e41-9b5f-4d7b-b20e-2494bb30fe84",
             "Value": {
                 "id": "49b813be-79b7-47ee-a513-9c36c658ba2d",
