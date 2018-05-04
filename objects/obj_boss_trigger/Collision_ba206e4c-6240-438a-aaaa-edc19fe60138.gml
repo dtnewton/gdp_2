@@ -16,11 +16,11 @@ instance_create_layer(6048, 0, "Instances", obj_boss_controller);
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 36352477
-/// @DnDArgument : "xpos" "5855"
-/// @DnDArgument : "ypos" "478"
+/// @DnDArgument : "xpos" "6048"
+/// @DnDArgument : "ypos" "448"
 /// @DnDArgument : "objectid" "obj_boss_1"
 /// @DnDSaveInfo : "objectid" "085292e7-3f84-4598-aa47-3aaa3c351f33"
-instance_create_layer(5855, 478, "Instances", obj_boss_1);
+instance_create_layer(6048, 448, "Instances", obj_boss_1);
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
