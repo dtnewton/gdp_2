@@ -67,8 +67,8 @@ if(obj_score_controller.total_hats > 19 && obj_score_controller.total_hats <= 37
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 3F4BC314
-/// @DnDArgument : "expr" "obj_score_controller.total_hats == 38"
-if(obj_score_controller.total_hats == 38)
+/// @DnDArgument : "expr" "obj_score_controller.total_hats > 37"
+if(obj_score_controller.total_hats > 37)
 {
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
