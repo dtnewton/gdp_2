@@ -663,6 +663,14 @@
             }
         },
         {
+            "Key": "9759a700-3e54-4816-b94c-1790734d820b",
+            "Value": {
+                "id": "f5ce3154-a6a9-4364-a2d0-c25a14b48e19",
+                "resourcePath": "paths\\boss_path\\boss_path.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "98ce6814-7d70-4da0-85eb-cec660353c60",
             "Value": {
                 "id": "d8733963-a920-4fa6-bb24-5394c2b835b8",

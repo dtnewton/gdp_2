@@ -12,13 +12,6 @@ audio_play_sound(sfx_boss_ambience, 0, 0);
 /// @DnDArgument : "alarm" "3"
 alarm_set(3, room_speed );
 
-/// @DnDAction : YoYo Games.Movement.Set_Speed
-/// @DnDVersion : 1
-/// @DnDHash : 06F106A9
-/// @DnDArgument : "speed" "-1"
-/// @DnDArgument : "type" "1"
-hspeed = -1;
-
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 713F8A7D
@@ -38,3 +31,18 @@ alarm_set(0, room_speed * 12);
 /// @DnDArgument : "steps" "room_speed * 6"
 /// @DnDArgument : "alarm" "1"
 alarm_set(1, room_speed * 6);
+
+/// @DnDAction : YoYo Games.Paths.Start_Path
+/// @DnDVersion : 1.1
+/// @DnDHash : 2B7C34DC
+/// @DnDArgument : "path" "boss_path"
+/// @DnDArgument : "speed" "-1"
+/// @DnDArgument : "atend" "path_action_reverse"
+/// @DnDSaveInfo : "path" "9759a700-3e54-4816-b94c-1790734d820b"
+path_start(boss_path, -1, path_action_reverse, false);
+
+/// @DnDAction : YoYo Games.Paths.Path_Position
+/// @DnDVersion : 1
+/// @DnDHash : 0F94F7BC
+/// @DnDArgument : "position" ".5"
+path_position = .5;
