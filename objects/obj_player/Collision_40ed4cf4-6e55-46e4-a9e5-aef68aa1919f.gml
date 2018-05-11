@@ -48,7 +48,7 @@ if(!(shielded == 1))
 				/// @DnDVersion : 1
 				/// @DnDHash : 67F4217A
 				/// @DnDParent : 3B19D790
-				/// @DnDArgument : "code" "var i;$(13_10)var lost;$(13_10)for(i = 0; i < instance_number(obj_hat); i+=1){$(13_10)	var inst = instance_find(obj_hat, i);$(13_10)	if(inst.is_wearing == 1){$(13_10)		inst.is_wearing = 0;$(13_10)		inst.image_speed = 0;$(13_10)		inst.image_index = 0;$(13_10)		inst.hspeed = random_range(-5, 5);$(13_10)		inst.vspeed = -10;$(13_10)		inst.gravity = 1;$(13_10)		inst.gravity_direction = 270;$(13_10)	}$(13_10)}$(13_10)$(13_10)hat_stack = 0;$(13_10)hat_stack_height = 0;$(13_10)obj_player_controller.has_beanie = 0;$(13_10)obj_player_controller.has_viking = 0;$(13_10)obj_player_controller.has_top = 0;$(13_10)obj_player_controller.has_bowler = 0;$(13_10)"
+				/// @DnDArgument : "code" "var i;$(13_10)var lost;$(13_10)for(i = 0; i < instance_number(obj_hat); i+=1){$(13_10)	var inst = instance_find(obj_hat, i);$(13_10)	if(inst.is_wearing == 1){$(13_10)		inst.is_wearing = 0;$(13_10)		inst.image_speed = 0;$(13_10)		inst.image_index = 0;$(13_10)		inst.hspeed = random_range(-5, 5);$(13_10)		inst.vspeed = random_range(-12, -8);$(13_10)		inst.gravity = 1;$(13_10)		inst.gravity_direction = 270;$(13_10)	}$(13_10)}$(13_10)$(13_10)hat_stack = 0;$(13_10)hat_stack_height = 0;$(13_10)obj_player_controller.has_beanie = 0;$(13_10)obj_player_controller.has_viking = 0;$(13_10)obj_player_controller.has_top = 0;$(13_10)obj_player_controller.has_bowler = 0;$(13_10)"
 				var i;
 				var lost;
 				for(i = 0; i < instance_number(obj_hat); i+=1){
@@ -58,7 +58,7 @@ if(!(shielded == 1))
 						inst.image_speed = 0;
 						inst.image_index = 0;
 						inst.hspeed = random_range(-5, 5);
-						inst.vspeed = -10;
+						inst.vspeed = random_range(-12, -8);
 						inst.gravity = 1;
 						inst.gravity_direction = 270;
 					}

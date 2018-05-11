@@ -24,6 +24,13 @@ image_xscale = 0.5;
 /// @DnDArgument : "var" "image_yscale"
 image_yscale = 0.5;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 26DDA695
+/// @DnDArgument : "expr" "4"
+/// @DnDArgument : "var" "image_speed"
+image_speed = 4;
+
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 4631BE3F

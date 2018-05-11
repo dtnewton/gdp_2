@@ -41,8 +41,9 @@ if(!(shielded == 1))
 		/// @DnDHash : 5E934F8F
 		/// @DnDParent : 2CC53457
 		/// @DnDArgument : "var" "curr_hp"
+		/// @DnDArgument : "op" "1"
 		/// @DnDArgument : "value" "10"
-		if(curr_hp == 10)
+		if(curr_hp < 10)
 		{
 			/// @DnDAction : YoYo Games.Audio.Play_Audio
 			/// @DnDVersion : 1
